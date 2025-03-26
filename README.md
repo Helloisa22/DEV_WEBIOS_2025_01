@@ -1,9 +1,6 @@
 # DEV_WEBIOS_2025_01
 
-Olá Mundo
-
-Hello World
-
-SOCORRO WORLD
-
-Git Vei podi
+- objetivo 1
+- objetivo 2
+- objetivo 3
+- objetivo 4
