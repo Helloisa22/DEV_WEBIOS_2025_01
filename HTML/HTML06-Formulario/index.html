@@ -9,6 +9,72 @@
     
     <!-- Atributo action serve para executar uma ação: enviar o usuário para outro site web/ enviar um Email de boas vindas para o usuario/ guardar as informações preenchidas no formulário para um banco de dados Ou chamar alguma ação usando o Javascript -->
     <form action="">
+
+        <!-- placeholder > inserir um texto auxiliar para informar o que o usuario deve fazer no campo input -->
+        <label for="">Nome:</label>
+        <input type="text">
+
+        <!-- Type radio - três opções -->
+        <!-- para aplicar a configuração do radio é necessário colocar o type como radio e o name igual para todos os inputs -->
+        <br>
+        <input type="radio" name="pipoca"> <label for="">São Paulo</label> <br>
+
+        <input type="radio" name="pipoca"> <label for="">Grande São Paulo</label> <br>
+
+        <input type="radio" name="pipoca"><label for="">Campinas</label>
+        <br>
+
+        <!-- checkbox -->
+        <input type="checkbox">
+        <label for="">Funk</label>
+        <br>
+
+        <input type="checkbox">
+        <label for="">Pagode</label>
+        <br>
+
+        <input type="checkbox">
+        <label for="">Metal</label>
+        <br>
+
+        <input type="checkbox">
+        <label for="">Trap</label>
+
+        <br>
+
+        0KM <input type="range"> 100KM
+
+        <br>
+
+        <!-- Select -->
+        <select name="" id="">
+
+            <option value="Amarelo">Amarelo</option>
+            <option value="Branco">Branco</option>
+            <option value="Vermelho">Vermelho</option>
+
+        </select>
+
+        <br><br>
+
+        <!-- datalist -->
+        <input type="text" list="busca">
+
+        <datalist id="busca">
+            <option value="Santos"></option>
+            <option value="Santo André"></option>
+            <option value="Santo Antonio"></option>
+            <option value="Campinas"></option>
+        </datalist>
+
+
+
+
+
+        
+
+
+        <br><br><br><br><br><br><br>
         <!-- value - colocar um texto no input quando o valor do atributo type estiver como button -->
         <input type="button" value="Enviar">
 
