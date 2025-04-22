@@ -1,84 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
+
 <body>
-    
+
     <!-- Atributo action serve para executar uma ação: enviar o usuário para outro site web/ enviar um Email de boas vindas para o usuario/ guardar as informações preenchidas no formulário para um banco de dados Ou chamar alguma ação usando o Javascript -->
-    <form action="">
+    <form action="./boasVindas.html" target="_blank">
 
         <!-- placeholder > inserir um texto auxiliar para informar o que o usuario deve fazer no campo input -->
-        <label for="">Nome:</label>
-        <input type="text">
+
+        <fieldset>
+            <legend>Digite o seu nome:</legend>
+
+            <label for="">Nome:</label>
+            <input type="text" required>
+        </fieldset>
 
         <!-- Type radio - três opções -->
         <!-- para aplicar a configuração do radio é necessário colocar o type como radio e o name igual para todos os inputs -->
         <br>
-        <input type="radio" name="pipoca"> <label for="">São Paulo</label> <br>
+        <fieldset>
+            <legend>Selecione onde você mora:</legend>
 
-        <input type="radio" name="pipoca"> <label for="">Grande São Paulo</label> <br>
+            <input type="radio" name="pipoca"> <label for="">São Paulo</label> <br>
 
-        <input type="radio" name="pipoca"><label for="">Campinas</label>
+            <input type="radio" name="pipoca"> <label for="">Grande São Paulo</label> <br>
+
+            <input type="radio" name="pipoca"><label for="">Campinas</label>
+        </fieldset>
         <br>
 
         <!-- checkbox -->
-        <input type="checkbox">
-        <label for="">Funk</label>
+        <fieldset>
+            <legend>Escolha seu genero musical:</legend>
+
+            <input type="checkbox">
+            <label for="">Funk</label>
+            <br>
+
+            <input type="checkbox">
+            <label for="">Pagode</label>
+            <br>
+
+            <input type="checkbox">
+            <label for="">Metal</label>
+            <br>
+
+            <input type="checkbox">
+            <label for="">Trap</label>
+        </fieldset>
+
         <br>
 
-        <input type="checkbox">
-        <label for="">Pagode</label>
-        <br>
+        <fieldset>
+            <legend>Escolha a distancia:</legend>
 
-        <input type="checkbox">
-        <label for="">Metal</label>
-        <br>
-
-        <input type="checkbox">
-        <label for="">Trap</label>
-
-        <br>
-
-        0KM <input type="range"> 100KM
+            0KM <input type="range"> 100KM
+        </fieldset>
 
         <br>
 
         <!-- Select -->
-        <select name="" id="">
+        <fieldset>
+            <legend>Escolha sua cor favorita:</legend>
 
-            <option value="Amarelo">Amarelo</option>
-            <option value="Branco">Branco</option>
-            <option value="Vermelho">Vermelho</option>
+            <select name="" id="">
 
-        </select>
+                <option value="Amarelo">Amarelo</option>
+                <option value="Branco">Branco</option>
+                <option value="Vermelho">Vermelho</option>
+
+            </select>
+        </fieldset>
 
         <br><br>
 
         <!-- datalist -->
-        <input type="text" list="busca">
+        <fieldset>
+            <legend>Escolha sua cidade:</legend>
 
-        <datalist id="busca">
-            <option value="Santos"></option>
-            <option value="Santo André"></option>
-            <option value="Santo Antonio"></option>
-            <option value="Campinas"></option>
-        </datalist>
+            <input type="text" list="busca">
 
-
-
-
-
-        
+            <datalist id="busca">
+                <option value="Santos"></option>
+                <option value="Santo André"></option>
+                <option value="Santo Antonio"></option>
+                <option value="Campinas"></option>
+            </datalist>
+        </fieldset>
 
 
-        <br><br><br><br><br><br><br>
+        <br><br>
+        <!-- Area para grande quantidade de texto
+                cols > colunas
+                rows > linhas -->
+
+        <textarea cols="30" rows="10"></textarea>
+
+
+
+
+
+
+
+        <br><br>
         <!-- value - colocar um texto no input quando o valor do atributo type estiver como button -->
-        <input type="button" value="Enviar">
+        <input type="submit" value="Enviar">
 
     </form>
 
+    <br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
+
 </html>
