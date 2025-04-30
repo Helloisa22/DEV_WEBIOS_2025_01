@@ -1,0 +1,23 @@
+h1{
+    /* cor do texto usando decimal */
+    color: rgb(0, 0, 0); /* red, green, blue */
+    /* cor do texto usando hexadecimal */
+    background-color: #00BFFF;/* FF-red, 00-Green, 00-blue*/
+    font-size: 50px;
+    text-align: center;
+}
+
+body{
+    font-family: "Roboto", "Time new Roman" , sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 50px;
+}
+
+
+h2{
+    text-shadow: 2px 2px 5px #00FFFF;
+
+    /* deslocamento horizontal da sombra, deslocamento vertical da sombra, raio do borrado (opcional) e cor */
+}
+
