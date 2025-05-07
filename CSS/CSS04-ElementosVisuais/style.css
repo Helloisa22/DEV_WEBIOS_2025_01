@@ -6,3 +6,22 @@
     /* estilo da borda */
     border-style: inset;
 }
+
+img{
+    /* largura */
+    width: 400px;
+    /* Altura */
+    height: 400px;
+}
+
+figcaption, p{
+    color: white;
+}
+
+body{
+    /* background-color: aquamarine; */
+    background-image: url("./Fundo2.avif");
+    background-size: 100%;
+    /* fixed / Scroll */
+    background-attachment: fixed;
+}
