@@ -1,0 +1,40 @@
+.Divs{
+    margin-bottom: 100px;
+    border: 2px solid black;
+    height: 300px;
+    padding: 10%;
+    clear: both;
+}
+
+#img0{
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+.IMGS1{
+    width: 450px;
+}
+
+#img1{
+    float: right;
+    margin-left: 20px;
+}
+
+.IMGS{
+    width: 200px;
+}
+
+#img2{
+    float: left;
+}
+
+#img3{
+    float: right;
+}
+
+#img4{
+    width: 130px;
+    margin-left: 12%;
+    margin-top: -15px;
+}

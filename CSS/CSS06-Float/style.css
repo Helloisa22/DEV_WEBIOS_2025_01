@@ -1,0 +1,37 @@
+.Divs{
+    border: 2px solid black;
+    clear: both;
+    height: 500px;
+    margin-bottom: 30px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#imgSoraia{
+    height: 400px;
+    width: 300px;
+    float: left;
+    margin-right: 40px;
+}
+
+#imgNaruto{
+    height: 400px;
+    width: 400px;
+    float: right;
+}
+
+#imgCleiton{
+    height: 400px;
+    width: 400px;
+}
+
+#imgRed{
+    height: 400px;
+    width: 400px;
+}
+
+#Gif{
+    height: 400px;
+    width: 400px;
+}
