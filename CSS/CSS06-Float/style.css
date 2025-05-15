@@ -1,3 +1,9 @@
+*{
+    margin: auto;
+    width: 90%;
+}
+
+
 .Divs{
     border: 2px solid black;
     clear: both;
@@ -13,25 +19,85 @@
     width: 300px;
     float: left;
     margin-right: 40px;
+    border-radius: 5%;
+    /* transition: width 5s, height 5s, transform 5s; */
 }
+
+#tabelaSoraia{
+    width: 70%;
+    border: 1px solid;
+    margin-top: 20px;
+    border-radius: 1%;
+    border-collapse: collapse;
+}
+
+td{
+    width: 50%;
+    border: 1px solid;
+}
+
+
+/* #imgSoraia:hover{
+    width: 700px;
+    height: 700px;
+    transform: rotate(180deg);
+} */
 
 #imgNaruto{
     height: 400px;
     width: 400px;
     float: right;
+    transition: opacity 0.9s;
+}
+
+#imgNaruto:hover{
+    opacity: 0;
+}
+
+
+#paragrafoNaruto::first-letter{
+    font-size: 25px;
+    color: crimson;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
 }
 
 #imgCleiton{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
+    float: left;
 }
 
 #imgRed{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
+    float: right;
 }
 
 #Gif{
-    height: 400px;
+    height: 300px;
+    width: 300px;
+    margin-left: 10%;
+}
+
+#paragrafoSoraia{
+    font-size: 25px;
+    margin-top: 80px;
+}
+
+#paragrafoSoraia:hover{
+    color: black;
+    background-color: aquamarine;
+}
+
+#blay{
+    width: 100px;
+    height: 100px;
+    transition: width 15s, height 15s, transform 10s;
+}
+
+#blay:hover{
     width: 400px;
+    height: 400px;
+    transform: rotate(40000deg);
 }
