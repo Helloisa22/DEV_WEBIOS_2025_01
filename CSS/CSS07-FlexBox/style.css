@@ -1,0 +1,13 @@
+#container{
+    /* Vou trabalhar com flexbox */
+    display: flex;
+    flex-direction: row;
+    /* evitar o overflow / evitar que o conteudo ultrapasse a largura da tela */
+    flex-wrap: wrap-reverse;
+}
+
+.itens{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
