@@ -3,11 +3,22 @@
     display: flex;
     flex-direction: row;
     /* evitar o overflow / evitar que o conteudo ultrapasse a largura da tela */
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    /* Alinhar elementos no eixo horizontal */
+    justify-content: space-evenly;
+    border: 2px solid firebrick;
+    height: 200px;
+    /* alinhar no eixo vertical */
+    align-items: stretch;
 }
 
 .itens{
     border: 1px solid black;
     width: 50px;
     height: 50px;
+}
+
+#div1:hover{
+    flex-grow: 0.35;
+    transition: 3s;
 }
