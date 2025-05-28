@@ -1,10 +1,13 @@
 .container{
     border: 1px solid #FF00FF;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50px 50px 50px 50px;
 }
 
 .itens{
-    width: 35%;
-    height: 100px;
+    /* width: 35%;
+    height: 100px; */
     border: 1px solid #FF0000;
     font-size: 250%;
 }
