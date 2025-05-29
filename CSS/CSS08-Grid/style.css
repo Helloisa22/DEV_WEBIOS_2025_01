@@ -39,3 +39,53 @@ body{
     /* referente as linhas horizontais */
     grid-row: 1 / 3;
 }
+
+/* Codigo para a aula 09 GRID */
+#container2{
+    display: grid;
+    /* Grid de 3X4 */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 70px);
+}
+
+#Item01{
+    border: 1px solid #00ffee;
+    grid-column: 1 / 4;
+    width: 70%;
+    justify-self: center;
+}
+
+#Item02{
+    border: 1px solid black;
+}
+
+#Item03{
+    border: 1px solid black;
+    grid-column: 3 / 4;
+}
+
+#Item04{
+    border: 1px solid yellow;
+    grid-column: 2/4;
+}
+
+#Item06{
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    border: 1px solid blue;
+    height: 70%;
+    align-self: center;
+}
+
+#Item05{
+    grid-column: 3 / 4;
+    border: 1px solid red;
+    height: 70%;
+    width: 70%;
+    /* Eixo horizontal */
+    justify-self: center;
+    /* heixo vertical */
+    align-self: center;
+    /* justify-self / align-self  */
+    place-self: center;
+}
