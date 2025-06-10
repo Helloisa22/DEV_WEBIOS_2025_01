@@ -65,7 +65,34 @@ let temCamisa = false
 let temCracha = false
 console.log(temCamisa)
 console.log(temCracha)
-console.log(!(temCamisa == true && temCracha == true))  //    false          ==    false = false
+
+// Operadores de comparação
+// console.log(!(temCamisa == true && temCracha == true))  //    false          ==    false = false
+
+console.log(temCamisa == true && temCracha == true)//    false          ==    false = false
+
 console.log(temCamisa == true || temCracha == true)//       false      ou      true = true
 
+// Operador de atribuição
+var x = 3
+var y = 2
+x = x + y
+x <<= y // Para pesquisar
+// x += y // formato contraido
+// x = 3 + 2
+console.log(x)
 
+x = 720
+console.log(x)
+
+// log > para mostrar resultados, mensagens do sistema
+// clear > Limpar o console e deixar disponivel para novas mensagens
+
+console.clear()
+
+console.log("Está tudo limpo")
+console.log("Olá mundo")
+
+console.error("Não use essa tela, você poder ser punido isso")
+
+console.warn("Mas apresenta uma mensagem em amarelo")
