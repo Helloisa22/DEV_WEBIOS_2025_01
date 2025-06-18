@@ -15,16 +15,18 @@ function MostrarMensagem(){
 let numeroTabuada = document.getElementById("numero")
 let recebeCalculo = document.getElementById("recebeCalculo")
 
+// Funcao de calcular a tabuada
 function Calcular(){
     // ler o numero que será digitado no input
     let numero = numeroTabuada.value;
 
+    //Apresentar a tabuada
     for(let i = 0; i <= 10; i++){
         recebeCalculo.innerHTML += `${numero} X ${i} = ${numero * i} <br>`
     }
 }
 
-
+// Limpar o console
 function Limpar(){
     recebeCalculo.innerHTML = ''
 }
