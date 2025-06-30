@@ -1,0 +1,111 @@
+/* Inicio configuração footer */
+#footer-empresa {
+    display: grid;
+    grid-template-rows: 20% 60% 20%;
+    grid-template-columns: repeat(3, 30%);
+    background-color: #454647;
+    justify-items: center;
+    align-items: center;
+    height: 400px;
+    justify-content: center;
+}
+
+#footer-empresa h3, p {
+    color: white;
+}
+
+#footer-empresa h3{
+    align-self: end;
+}
+
+#item-1 {
+    padding: 0 40px;
+}
+
+#item-2 img {
+    height: 55px;
+    padding: 10px 0;
+}
+
+#item-3 {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 50%);
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+#item-3 h3 {
+    grid-column: 1 / 4;
+}
+
+#item-3 img {
+    height: 45px;
+    width: 45px;
+}
+
+#item-4{
+    grid-column: 1 / 3;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    gap: 20px;
+}
+
+#item-4 img{
+    height: 45px;
+    width: 45px;
+}
+
+@media(max-width: 722px) {
+    #footer-empresa {
+        display: grid;
+        grid-template-rows: 60px 300px 40px 200px 40px 100px;
+        grid-template-columns: auto;
+        background-color: #454647;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        row-gap: 20px;
+    }
+
+    #titulo-sobre{
+        grid-column: 1 / 2;
+        align-self: end;
+    }
+
+    #item-1{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        font-size: 1.3em;
+    }
+
+    #titulo-parceria{
+        grid-row: 3 / 4;
+    }
+
+    #item-2{
+        grid-row: 4 / 5;
+    }
+
+    #titulo-Contato{
+        grid-row: 5 / 6;
+    }
+
+    #item-3{
+        grid-row: 6 / 7;
+    }
+
+    #item-4{
+        grid-row: 7 / 7;        
+    }
+
+    #item-1 p{
+        color: white;
+        font-size: 0.8em;
+    }
+}
+/* Fim configuração footer */

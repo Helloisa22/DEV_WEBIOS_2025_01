@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+}
+
+div section{
+    background-color: yellow;
+}
+
 /* para sinalizar que eu vou chamar um id o nome deve vir acompanhado no inicio pelo simbolo do jogo da velha */
 #div1{
     background-color: cornflowerblue;
